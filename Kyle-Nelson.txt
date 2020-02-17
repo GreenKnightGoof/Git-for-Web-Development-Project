@@ -1,0 +1,76 @@
+Codepen Assignment: https://codepen.io/GreenKnightGoof/pen/MWwyQEz?editors=1100
+
+1. What is Semantic HTML?
+	- Semantic HTML is proper use of HTML tags and structure to make your code readable, organized, and usable across the coding industry.   
+2. What is HTML used for?
+	- HTML is used for the structure of your code. Much like the house metaphor, it is the foundation, framing, and roofing of the code before CSS/JS come in to make it more presentable and usable.  
+3. What is an attribute and where do we put it?
+	- An attribute is a property or characteristic. We put it on whatever property or characteristic that we want to change. Ex. if "color" is the property then "red" would be the attribute. So I believe that it is mostly found in our CSS window.  
+4. What is the h1 tag used for? How many times should I use it on a page?
+	- The h1 tag is used for an important title, maybe for a business name or the webpage name. I don't believe that it should be used more than once.  
+5. Name two tags that have required attributes
+	- h, and nav
+6. What do we put in the head of our HTML document?
+	- The header 
+7. What is an id?
+	- An id is a unique identifier used by CSS and Javascript to perform a certain task on an element. 
+8. What elements can I add an id to? 
+	- The id attribute specifies a unique id for an HTML element. It performs certain tasks for the element with the specific id value. 
+9. How many times can I use the same id on a page? 
+	- Once
+10. What is a class? 
+	- Class is an attribute which specifies one or more class names for an HTML element. 
+11. What elements can I add a class to? 
+	- All HTML elements with the same class name. 
+12. How many times can I use the same class on a page?
+	- I don't think that there is a limit.
+13. How do I get my link to open in a new tab?
+	- Use a nav tag and put your link into the h ref section. 
+14. What is the alt attribute used for?
+	- Specifies an alternate text for an image. 
+15. How do I reference an id?
+	- With a hash sign. 
+16. What is the difference between a section and a div
+	- Same function but section is more specific. 
+17. What is CSS used for? 
+	- To style HTML elements. 
+18. How to we select an element? Example - every h2 on the page
+	- For EVERY h2 use the universal selector * h2{}
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	- Id's identify one element. Classes identify more than one element. Use the class to style items identyfing with that class and then use id to further style a specific item that you don't want the rest of the class items to be styled as. 
+20. How do we select classes in CSS?
+	- Write a period (.) followed by the name of the class. 
+21. How do we select a p element with a single class of “human””?
+	- p .human
+22. What is a parent child selector? When would this be useful?
+	- Selects all elements that are a direct child of the specified selector.  
+23. How do you select all links within a div with the class of sidebar?
+	- .sidebar
+24. What is a pseudo selector?
+	- Selects elements that are in a specific state. (Hovering) 
+25. What do we use the change the spacing between lines?
+	- Using "line-height" in CSS. 
+26. What do we use to change the spacing between letters?
+	- Using "letter-spacing" in CSS. 
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	- Using the CSS "text-transform" property. 
+28. How do I add a 1px border around my div that is dotted and black?
+	- select the div and then use: border: 1px dotted #(the code for black);
+29. How do I select everything on the page?
+	- using the universal selector (*).
+30. How do I write a comment in CSS?
+	- Begin with /* and end */
+31. How do I find out what file I am in, when I am using the command line? 
+	- pwd
+32. Using the command line - how do I see a list of files/folders in my current folder?
+	- ls
+33. How do I remove a file via the command line? Why do I have to be careful with this?
+	- Type cmd and with the command prompt open enter del/f filename. You must be careful because you can erase the important stuff that will make your computer crash! 
+34. Why should I use version control?
+	- helps teams to solve problems, track individual change, and prevents concurrent work from conflicting.  
+35. How often should I commit to github?
+	- commit every time you finish a step. 
+36. What is the command we would use to push our repo up to github?
+	- git push origin master will push the changes in my local repository up into the remote repository I specified as the origin.  
+37. Walk me through Lambda's git flow.
+	- fork, add TL, clone, create branch, run git commands to my branch, create pull request, use student fork as base, add TL as reviewer on pull request, TL will mark as done merging the HW back in to the master student fork. 
